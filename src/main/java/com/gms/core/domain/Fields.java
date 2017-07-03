@@ -7,13 +7,13 @@ import java.util.List;
  */
 public class Fields {
 
-    public List<String> Fields;
+    public List<Field> Fields;
 
-    public List<String> getFields() {
+    public List<Field> getFields() {
         return Fields;
     }
 
-    public void setFields(List<String> fields) {
+    public void setFields(List<Field> fields) {
         Fields = fields;
     }
 }
