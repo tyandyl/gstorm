@@ -2,16 +2,19 @@ package com.gms.core.domain;
 
 /**
  * Created by tianye on 2017/6/28.
- * 策略
  */
-public class Strategy {
-    public Values values;
-
-    public Values getValues() {
-        return values;
+public enum Strategy {
+    Global(1),Ramdom(2),Group(3);
+    public int i;
+    Strategy(int i){
+        this.i=i;
     }
 
-    public void setValues(Values values) {
-        this.values = values;
+    public int getI() {
+        return i;
+    }
+
+    public void setI(int i) {
+        this.i = i;
     }
 }
